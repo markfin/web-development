@@ -13,8 +13,13 @@ css layout box-model
     -padding area transparan di dalam kotak (antara content dan border)
     -border batas disekeliling content dan padding
     -content content sebenarnya dalam box bisa berupa teks atau gambar
+    -penggunaan display in-block
     -->
     <style>
+      .in {
+            display: inline-block;
+        }
+        
         .cont1 {
             width: 350px;
             height: 350px;
