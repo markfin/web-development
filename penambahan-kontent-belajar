@@ -95,7 +95,16 @@ css layout box-model
         <div class="enam"></div>
 
     </div>
-
+<div class="cont1 in">
+        <div class="satu">satu</div>
+        <div class="dua">dua</div>
+        <div class="tiga">tiga</div>
+    </div>
+    <div class="cont2 in">
+        <div class="satu in">satu</div>
+        <div class="dua in">dua</div>
+        <div class="tiga in">tiga</div>
+    </div>
 
 </body>
 
