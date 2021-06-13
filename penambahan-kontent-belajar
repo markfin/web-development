@@ -1,0 +1,102 @@
+css layout box-model
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- setiap elemen di halaman berada dalam kotak box
+    kita bisa mengatur posisi dan ukuran dalam kotak tersebut
+    kita bisa memberi warna/background dalam kotak tersebut
+
+    - margin: Area transparan di sekitar kotak
+    -padding area transparan di dalam kotak (antara content dan border)
+    -border batas disekeliling content dan padding
+    -content content sebenarnya dalam box bisa berupa teks atau gambar
+    -->
+    <style>
+        .cont1 {
+            width: 350px;
+            height: 350px;
+            display: inline-block;
+            background-color: black;
+        }
+        
+        .satu {
+            width: 150px;
+            height: 150px;
+            background-color: aquamarine;
+            line-height: 150px;
+            margin-right: 10px;
+            display: inline-block;
+        }
+        
+        .dua {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin-left: 20px;
+            display: inline-block;
+            padding: 5px;
+            overflow: auto;
+            box-sizing: border-box;
+        }
+        
+        .tiga {
+            width: 50px;
+            height: 50px;
+            background-color: brown;
+            display: inline-block;
+        }
+        
+        .empat {
+            width: 150px;
+            height: 150px;
+            background-color: aquamarine;
+            line-height: 150px;
+        }
+        
+        .lima {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin-left: 20px;
+            display: inline-block;
+            padding: 5px;
+            overflow: auto;
+            box-sizing: border-box;
+        }
+        
+        .enam {
+            width: 50px;
+            height: 50px;
+            background-color: brown;
+        }
+        
+        .wrn {
+            float: left;
+            background-color: yellow;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cont1">
+        <div class="satu">satu</div>
+        <div class="dua">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque deserunt maxime deleniti, esse amet qui ducimus, quam provident numquam vel, et similique itaque nostrum repellat! Dolore labore excepturi sint itaque!</p>
+        </div>
+        <div class="tiga">tiga</div>
+    </div>
+    <div class="cont1 wrn">
+        <div class="empat"></div>
+        <div class="lima"></div>
+        <div class="enam"></div>
+
+    </div>
+
+
+</body>
+
+</html>
